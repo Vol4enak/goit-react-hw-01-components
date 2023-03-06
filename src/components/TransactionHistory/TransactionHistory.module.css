@@ -1,0 +1,18 @@
+.transactionHistory {
+  border-collapse: collapse;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
+}
+
+td {
+  text-align: center;
+}
+table th{
+    background-color: skyblue;
+    color: white;
+}
+table tr:nth-child(odd){
+    background-color: gainsboro;
+}

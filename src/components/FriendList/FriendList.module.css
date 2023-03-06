@@ -1,0 +1,23 @@
+.friendList {
+  margin-left: 100px;
+}
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.status {
+  width: 7px;
+  height: 7px;
+  border-radius: 4px;
+}
+
+.true {
+  background-color: green;
+}
+.false {
+  background-color: red;
+}
